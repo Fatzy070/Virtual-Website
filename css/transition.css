@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+body{
+    margin: 50px;
+}
+.but{
+    margin-left: 100px;
+}
+.but button{
+    transition: 2s ease-in-out;
+   
+   
+}
+.but:hover button{
+    background-color: rgb(245, 151, 117);
+    transform: scaleX(2) rotate(40deg);
+}
+.box ul {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: bold;
+}
+.box li:hover{
+    border-top: 2px solid black;
+}
+.exer ul {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+.exer li {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.exer li:hover {
+    border-bottom: 2px solid red ;
+    transition: 200ms ease-in;
+}
+.brand {
+    border: 2px solid transparent ;
+    width: 280px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: rgb(214, 214, 214);
+   
+}
+.brand:hover {
+    border: 2px solid red ;
+}
+.brand img {
+    height: 200px;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 35px;
+    margin-top: 40px;
+    transform: scaleY(1) rotate(30deg);
+    transition: 900ms ease-in-out;
+}
+.brand:hover  img{
+    transform: rotate(0);
+}
+.brand p {
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: small;
+}
+.brand h1 {
+    padding-left: 18px;
+}

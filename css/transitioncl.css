@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 50px;
+}
+.brand{
+    display: grid;
+    justify-content: center;
+    border: solid transparent ;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    position: relative;
+    background-color: aliceblue;
+}
+.brand:hover{
+    border: solid grey ;
+}
+.brand p {
+    padding-top: 30px;
+    text-align: start;
+    font-size: small;
+    color: green;
+}
+.brand h1{
+    text-align: start;
+    font-size: 1.9rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.brand img {
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 20px;
+    transition: 400ms ease-in-out;
+     
+}
+.photo img {
+    transform: scaleY(1) rotate(30deg);
+}
+.brand:hover img{
+    transform:  rotate(0);
+}
+.but{
+    margin-left: 100px;
+}
+.but button{
+    transition: 2s ease-in-out;
+   
+   
+}
+.but:hover button{
+    background-color: rgb(245, 151, 117);
+    transform: scaleY(2) rotate(40deg);
+}
+.sect{
+    display: flex;
+    gap: 50px;
+}
+@media only screen and (max-width: 600px){
+    .sect{
+         flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .sect{
+         flex-wrap: wrap;
+        gap: 50px;
+    }
+    .brand{
+        width: 450px;
+    }
+}
+@media only screen and (min-width: 800px){
+    .sect{
+         flex-wrap: wrap;
+        gap: 50px;
+    }
+}

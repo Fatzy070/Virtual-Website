@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --primarycolor:rgb(92, 188, 92);
+}
+.sect{
+    gap: 50%;
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.box{
+    display: flex;
+    gap:5px;
+}
+.pro{
+    display: flex;
+    gap: 5px;
+}
+.pro h1 {
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+.spera h1{
+    /* border: 2px solid red ; */
+    padding: 0 5px;
+    background-color: var(--primarycolor);
+    color: white;
+}
+.logo{
+    color: rgb(154, 154, 154);
+}
+.sect1{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;
+    align-items: center;
+    gap: 40%;
+}
+.sect1 ul {
+    display: flex;
+    gap: 20px;
+}
+.sect1 a {
+    text-transform: capitalize;
+    color: black;
+    font-size: 1.2rem;
+}
+.chev{
+    display: flex;
+    gap: 5px;
+}
+.chev i {
+   display: flex;
+   padding-top: 5px;
+}
+.gall {
+    border: 2px;
+    padding: 0 5px;
+    background-color: var(--primarycolor);
+    color: white;
+}
+.gall a {
+    color: #fff;
+}
+.sect2{
+    /* border: 2px solid red ; */
+    padding: 60px;
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin-top: 50px;
+    background-color: var(--primarycolor);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sect3{
+    
+}

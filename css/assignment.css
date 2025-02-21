@@ -1,0 +1,734 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    background-color: whitesmoke;
+}
+.main{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.unodered,nav{
+    text-align: center;
+}
+.unodered,nav,ul,li{
+    display: inline-block;
+    padding-left: 40px;
+    z-index: 20;
+    color: white;
+}
+.started{
+    padding: 10px 50px;
+    border-radius: 50px;
+    background-color: yellow;
+    border: none;
+}
+.sect{
+    border: 2px ;
+    height: 600px;
+    background-image:url(/images/farmland.png) ;
+    padding: 20px;
+    
+}
+.sustain{
+    text-align: center;
+    padding-top: 50px;
+}
+.sus{
+    font-size: 3rem;
+    margin-right: 130px;
+    margin-left: 130px;
+    z-index: 10px;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+    color: white;
+    z-index: 20;
+}
+.tain{
+    font-size: 1rem;
+    padding-bottom: 50px ;
+    color: white;
+    z-index: 20;
+}
+.explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.plore{
+    border: 2px ;
+    padding: 15px 40px ;
+    border-radius: 50px;
+    background-color: yellow
+}
+.learn{
+    border: 2px ;
+    padding: 15px 40px ;
+    border-radius: 50px;
+    color:black;
+    background-color: rgb(120, 213, 120);
+    opacity: 0.5;
+}
+.sect2{
+    border: 2px solid white ;
+    background-color: white;
+}
+.box{
+    padding-top: 10px;
+}
+.client{
+    display: flex;
+    gap: 100px;
+    margin-left: 50px;
+}
+.box{
+    text-align: center;
+}
+.fied{
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+.sect3{
+    border: solid 2px  rgb(120, 224, 120);
+    padding-bottom: 20px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+}
+.land{
+    display: flex;
+    gap: 50px;
+}
+.landimg{
+    padding-top: 50px;
+    height: 450px;
+    width: 350px;
+    margin-left: 30px;
+}
+.box3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.farmer{
+    height: 250px;
+    width: 400px;
+    margin-left: 30px;
+}
+.farm{
+    padding-top: 70px;
+}
+.farm h2 {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.farm p {
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    margin-right: 350px;
+}
+.mass{
+    margin-top: 20px;
+    border: 2px ;
+    padding: 20px;
+    background-color: #fff;
+    padding-bottom: 100px;
+}
+.mass img {
+    height: 300px;
+    width: 100%; 
+    border-radius: 10px;
+}
+.crop{
+    display: flex;
+    gap: 20px ;
+    justify-content: center;
+    align-items: center;
+}
+.feed{
+    border: 15px solid green;
+    width: 293px;
+    height: 520px;
+    padding-bottom: 50px;
+    border-top-left-radius: 30px  ;
+    border-top-right-radius: 30px  ;
+   
+}
+#none{
+    height: 425px;
+    background-color: rgb(118, 194, 118);
+    color: #fff;
+    width: 280px;
+
+}
+
+#none img{
+    height: 300px;
+}
+.feed h1 {
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+    
+}
+.feed p {
+    text-transform: capitalize;
+    padding-bottom: 30px ;
+}
+.more{
+    border: 2px  rgb(26, 52, 26);
+     height: 40px;
+     width: 150px;
+     border-radius: 50px;
+     background-color: lime;
+     opacity: 0.7;
+}
+.more button{
+    background-color: transparent;
+    border: none;
+    margin-top: 12px;
+    margin-left: 5px;
+    color: green;
+    font-weight: bold;
+}
+.sect5{
+    border: 2px  ;
+    padding: 20px;
+    background-color: green;
+    padding-bottom: 60px;
+    color: #fff;
+}
+.are{
+    text-align: center;
+}
+.ogun{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.faruk{
+    border: 3px solid rgb(162, 221, 162);
+    margin-top: 20px;
+    width: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.faruk img {
+    height: 280px;
+    width: 100%;
+    border-radius: 15px;
+}
+.faruk h1{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    padding-left: 5px;
+}
+.pro{
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.faruk p {
+    padding-left: 5px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+.agrizon{
+    padding-top: 100px;
+    color: #fff;
+}
+.agrizon h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    color: green;
+}
+.agrizon p{
+    border: 2px ;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: green;
+}
+.sect9{
+    border: 2px ;
+    text-align: center;
+    padding: 30px;
+    background-color: green;
+    color: #fff;
+}
+.sect9 h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+.sect9 p {
+    font-size: 1.2rem;
+    padding-bottom: 30px;
+}
+.sect10{
+    border: 2px  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 20px;
+    background-color: #fff;
+}
+.sect10 h1 {
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sect10 p {
+    padding-bottom: 5px ;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.sect11{
+    display: flex;
+    gap: 100px;
+    padding-left: 50px;
+    padding-top: 20px;
+    border:  2px ;
+    padding-bottom: 50px;
+    background-color: green;
+    color: #fff;
+}
+.sect11 h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.sect11 p {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 500px) {
+    .unodered,nav,ul,li{
+        display: none;
+    }
+    .sus{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 1.3rem;
+    }
+    .explore{
+        gap: 20px;
+    }
+    .client{
+        flex-wrap:wrap;
+        gap: 20px;
+       justify-content: center;
+       margin-right: 40px;
+    }
+    .land{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .farmer{
+        height: 200px;
+        width:80%;
+        margin-left: 30px;
+    }
+    .farm{
+        font-size: 1.2rem;
+        margin-left: 25px;
+    }
+    .farm p {
+        padding-bottom: 30px;
+        font-size: 1.5rem;
+        margin-right: 20px;
+    }
+    .landimg{
+        padding-top: 20px;
+        height: 300px;
+        width: 90%;
+      padding-right: 30px;
+    }
+    .crop{
+        flex-wrap:wrap ;
+        gap: 20px ;
+    }
+    .feed h1{
+        padding-left: 5px;
+    }
+    .feed p {
+        padding-left: 5px;
+    }
+    .ogun{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    #none{
+        height: 450px;
+    }
+    .pro{
+        font-size: 1.5rem;
+    }
+    .sect10{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .sect11 {
+         flex-wrap: wrap;
+         gap: 50px;
+    }
+   
+}
+@media only screen and (min-width: 800px) {
+    .unodered,nav,ul,li{
+        display: none;
+    }
+    .sus{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 1.3rem;
+    }
+    .explore{
+        gap: 20px;
+    }
+    .client{
+        flex-wrap:wrap;
+        gap: 20px;
+       justify-content: center;
+       margin-right: 40px;
+    }
+    .land{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .farmer{
+        height: 200px;
+        width:80%;
+        margin-left: 30px;
+    }
+    .farm{
+        font-size: 1.2rem;
+        margin-left: 25px;
+    }
+    .farm p {
+        padding-bottom: 30px;
+        font-size: 1.5rem;
+        margin-right: 20px;
+    }
+    .landimg{
+        padding-top: 20px;
+        height: 300px;
+        width: 90%;
+      padding-right: 30px;
+    }
+    .crop{
+        flex-wrap:wrap ;
+        gap: 20px ;
+    }
+    .feed h1{
+        padding-left: 5px;
+    }
+    .feed p {
+        padding-left: 5px;
+    }
+    .ogun{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    #none{
+        height: 450px;
+    }
+    .pro{
+        font-size: 1.5rem;
+    }
+}
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+}
+#sect{
+    border: 2px ;
+    padding: 20px;
+    padding-bottom: 150px;
+    background-image: url('/images/farmland.png');
+    color: #ffffff;
+}
+#home{
+    color: yellow;
+}
+#box{
+    display: flex;
+    gap:100px;
+    justify-content: center;
+    align-items: center;
+}
+#bx1 ,ul {
+    display: inline-flex;
+    gap: 40px;
+} 
+#bx1,ul,li{
+    list-style: none;
+}
+#button1{
+    border: 2px ;
+    background-color: yellow;
+    padding: 10px 50px ;
+    border-radius: 40px;
+}
+#bx2{
+    text-align: center;
+    padding-top: 50px ;
+}
+#bx3{
+    font-size: 3rem;
+    padding-bottom: 40px;
+    font-weight: lighter;
+    z-index: 10px;
+    text-transform: capitalize;
+    margin-left: -200px;
+}
+#bx4{
+    font-weight: 100;
+    font-size: 1rem;
+    padding-bottom: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 15px;
+    margin-left: -200px;
+    
+}
+#button2{
+    border: 2px ;
+    padding: 15px 40px ;
+    border-radius: 50px;
+    background-color: yellow;
+}
+#button3{
+    border: 2px ;
+    padding: 15px 40px ;
+    border-radius: 50px;
+    color:black;
+    background-color: rgb(120, 213, 120);
+    opacity: 0.5;
+}
+#bx5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#bx6{
+    display: flex;
+    margin-left: 20px;
+    gap: 10px;
+}
+#bx7{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+#bx8{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#bx9{
+    padding-top: 20px;
+    border: 2px ;
+    padding: 10px 80px;
+    background-color: #fff;
+}
+.box{
+    display: flex;
+    gap: 30px;
+    border: 2px ;
+    margin: 50px;
+}
+.images{
+    height: 450px;
+    width: 100%;
+}
+.mainBox{
+    width: 100%;
+    margin-right: 7rem;
+    text-align: start;
+}
+.mainBox h2{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 20px;
+} */
+/* .mainBox p{
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding-bottom: 30px;
+    color: #e4e2de;
+    font-family: 'Times New Roman', Times, serif;
+}
+.images2{
+    width: 400px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.sect{
+    border: 2px solid ;
+    background-color: rgb(79, 110, 79);
+    color: white;
+}
+#box1{
+    padding-bottom: 30px;
+}
+.box3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.box4{
+    display: flex ;
+    margin-top: 30px;
+   margin-left: 100px;
+   gap: 30px;
+   border: 2px solid red ;
+   box-shadow: 0 0 10px 0 ;
+   padding: 50px 10px;
+   padding-bottom: 90px;
+   background-color: white;
+   width: 80%;
+}
+#images4{
+    height: 280px;
+    width: 250px;
+    border-radius: 10px;
+}
+.box5{
+    border: 20px solid rgb(49, 87, 49) ; */
+    padding-bottom: 30px;
+    /* border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color:  rgb(79, 110, 79) ;
+    margin-left: 20px;
+}
+.box6{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.box7{
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+.learn{
+    border: 2px  ;
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 180px;
+    background-color: rgb(113, 219, 113);
+    opacity: 0.6;
+
+}
+.more{
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    color: rgb(3, 61, 3); */
+/* }
+.sect5{
+    border: 2px ;
+    background-color:  rgb(49, 87, 49) ;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height:550px;
+    width: 1025px;
+    margin-left: 100px;
+    margin-top: 50px;
+} */
+/* .bx{
+    display: flex;
+    gap: 80px ; */
+/* }
+.images5{
+    height: 350px ;
+    width: 250px; */
+    /* margin-top: 20px ; */
+    /* border-top-right-radius: 20px;
+    border-top-left-radius: 20px; */
+/* }
+.bx1{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 20px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.bx2{
+    border: 2px solid  rgb(146, 228, 146)  ;
+    margin-bottom: 50px; */
+    /* border-radius: 20px; */
+    /* border-top-right-radius: 20px;
+    border-top-left-radius: 20px; */
+/* }
+.bx3{
+    font-weight: 1.2rem;
+    padding-left: 20px;
+    text-transform: capitalize;
+}
+.bx4{
+    text-transform: capitalize;
+    padding-left: 5px;
+    padding-bottom: 20px;
+    font-weight:lighter;
+    font-size: 1.3rem;
+}
+.sect6{
+    margin: 50px;
+} */
+
+/* @media only screen and (max-width: 500px) {
+    nav ul li{
+        display: none;
+    }
+    #bx6{
+        flex-wrap: wrap;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .mainBox img{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    #bx3{
+        font-size: 1.2rem;
+    }
+    .box4{
+        flex-direction: column;
+    }
+    #images4{
+        width: 100%;
+    }
+} */

@@ -1,0 +1,36 @@
+/* @media only screen and (max-width: 600px) {
+    .sect{
+        gap: 0rem;
+    }
+    nav ul li {
+        display: none;
+    }
+    .sect2{
+        flex-wrap: wrap;
+    } 
+    .box6{
+        top: 206%;
+    }
+    #box{
+        padding-top: 20px;
+    }
+   
+} */
+/* @media only screen and (min-width: 800px) {
+    .sect{
+        gap: 0rem;
+    }
+    nav ul li {
+        display: none;
+    }
+    .sect2{
+        flex-wrap: wrap;
+    } 
+    .box6{
+        top: 206%;
+    }
+    #box{
+        padding-top: 20px;
+    }
+   
+} */
