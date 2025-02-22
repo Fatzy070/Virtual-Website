@@ -80,6 +80,114 @@
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.sect3{
+.sect3  {
+    padding: 50px;
+    display: flex;
+    gap: 15px;
     
+}
+.box1{
+    position: relative;
+    opacity: bottom;
+     
+}
+.box1 figcaption{  
+        border:2px solid  green;
+        position: absolute; 
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0  ;
+        text-align: center;
+        place-content: center;
+        font-size: 2rem;
+        color: #fff;
+        background-color: green;
+        
+}
+.box1:hover img {
+  
+
+}
+.box1:hover figcaption {
+     
+}
+.house{
+    display: flex;
+}
+.house img {
+    height: 100px;
+}
+.add{
+    display: flex;
+    gap: 10px;
+    font-size: 1rem;
+}
+.add i {
+    padding-top: 6px;
+}
+.dress{
+    display: flex;
+    gap: 5px;
+}
+.dress p {
+    padding-top: 6px;
+    font-size:1.1rem;
+}
+.email input{
+        height: 50px;
+        width: 350px;
+        background-color: transparent;
+        border: none;
+        border-left:2px solid red ;
+}
+.message{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.heart{
+    color: var(--primarycolor);
+}
+.email button {
+    height: 50px;
+    width: 350px;
+    font-size: 1.5rem;
+    color: white ;
+    border: none;
+    text-transform: capitalize;
+    background-color: var(--primarycolor);
+}
+.sect4{
+    display: flex;
+    gap: 20px;
+    margin-top:50px ;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    background-color: navy;
+}
+.sect4 h1 {
+    padding-bottom: 20px;
+}
+.philo p{
+    border: 2px;
+    width: 400px;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: rgb(236, 236, 236);
+}
+.hou {
+    padding-top: 20px;
+    margin-left: 10px;
+    width: 300px;
+    border: 2px  ;
+    font-size: 1.1rem;
+    color: rgb(236, 236, 236);
+}
+.hou p {
+    padding-bottom: 15px;
+}
+.hou a {
+    color: rgb(236, 236, 236);
 }
