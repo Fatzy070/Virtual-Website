@@ -73,6 +73,8 @@ const fruit = ['apple','banana','mango','cumcumber']
     const checks = document.getElementById('look')
 
 
+    
+
     // checks.addEventListener('click', ()=>
     // {
     //     alert('the button has been clicked');

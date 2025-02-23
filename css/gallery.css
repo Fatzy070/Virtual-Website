@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    contain: layout;
 }
 :root{
     --primarycolor:rgb(92, 188, 92);
@@ -80,19 +81,28 @@
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#lord {
+    padding-top: 50px;
+}
 .sect3  {
-    padding: 50px;
+    padding-left: 50px;
     display: flex;
     gap: 15px;
-    
+    padding-right: 100%;
+    padding-top: 15px;
 }
-.box1{
-    position: relative;
-    opacity: bottom;
+.box1 {
+    position: relative; 
+    height: 270px;
      
 }
+.box1 img {
+    height: 270px;
+    width:270px;
+    transition: 0.3s ease-in-out;
+    
+}
 .box1 figcaption{  
-        border:2px solid  green;
         position: absolute; 
         width: 100%;
         height: 100%;
@@ -100,21 +110,25 @@
         bottom: 0  ;
         text-align: center;
         place-content: center;
-        font-size: 2rem;
+        font-size: 1.4rem;
         color: #fff;
-        background-color: green;
-        
+        background-color: rgb(104, 172, 104 );
+       opacity: 0;
+       transition: 1s ease-in-out;
 }
 .box1:hover img {
-  
-
+    transform: scale(1.02);
 }
 .box1:hover figcaption {
-     
+        opacity: 1;
+        transform: scale(1.02);
+}
+figcaption:hover span {
+    color: rgb(211, 211, 211);
 }
 .house{
     display: flex;
-}
+} 
 .house img {
     height: 100px;
 }
@@ -133,13 +147,14 @@
 .dress p {
     padding-top: 6px;
     font-size:1.1rem;
-}
-.email input{
+} 
+ .email input{
         height: 50px;
         width: 350px;
         background-color: transparent;
         border: none;
         border-left:2px solid red ;
+        color: #fff;
 }
 .message{
     margin-top: 20px;
@@ -176,7 +191,7 @@
     font-size: 1.3rem;
     margin-bottom: 20px;
     color: rgb(236, 236, 236);
-}
+} 
 .hou {
     padding-top: 20px;
     margin-left: 10px;
@@ -190,4 +205,22 @@
 }
 .hou a {
     color: rgb(236, 236, 236);
+} 
+@media screen and (max-width: 767px) {
+    .sect3  {
+        flex-wrap: wrap;
+    }
+    .sect1 nav {
+        display: none;
+    }
+    .branda{
+        display: none;
+    }
+    .sect{
+        padding-left: 20px;
+    }
+    .sect4{
+        flex-wrap: wrap;
+        padding-left: 10px;
+    }
 }

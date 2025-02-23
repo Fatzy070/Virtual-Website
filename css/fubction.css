@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.sect img {
+    height: 300px;
+    width: 300px;
+}
+.sect {
+    position: relative;
+}
+.image {
+    transition: 1.5s ease-in-out;
+}
+.sect figcaption {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+   transition: 1.2s ease-in-out;
+
+}
+
+figcaption::after {
+    content: 'add to cart';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0;
+    width: 300px;
+    margin-bottom: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(116, 170, 116 , 0.9);
+}
+.image{
+    /* transform: scaleX(1.05); */
+}
+.sect:hover figcaption {
+    /* transform:scaleX(1.05); */
+    opacity: 1;
+}
